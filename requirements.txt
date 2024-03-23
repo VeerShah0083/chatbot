@@ -1,0 +1,4 @@
+google==3.0.0
+python-dotenv==0.19.1
+PyPDF2==1.26.0
+streamlit==1.6.0
