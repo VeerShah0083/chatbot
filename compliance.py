@@ -15,11 +15,11 @@ genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel("gemini-pro")
 
 # Load PDF knowledge base
-with open("/Users/arhambafna/GEMINIAPI/Finrules.pdf", "rb") as pdf_file:  # Replace with your PDF path
-    pdf_reader = PyPDF2.PdfReader(pdf_file)
-    pdf_text = ""
-    for page in pdf_reader.pages:
-        pdf_text += page.extract_text()
+# with open("/Users/arhambafna/GEMINIAPI/Finrules.pdf", "rb") as pdf_file:  # Replace with your PDF path
+#     pdf_reader = PyPDF2.PdfReader(pdf_file)
+#     pdf_text = ""
+#     for page in pdf_reader.pages:
+#         pdf_text += page.extract_text()
 
 st.title("Q&A Bot with Generative AI (Knowledge Base Enhanced)")
 st.subheader("Hello! How can I assist you today?")
